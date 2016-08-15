@@ -9,6 +9,6 @@
     "react": "15.2.1",
     "react-native": "0.29.0",
     "react-native-webview-bridge": "git+https://github.com/dongrenguang/react-native-webview-bridge.git#61f3ffb2f353798d3b30c35af144be3b7f2f98bd",
-    "react-native-webview-crypto": "0.0.8"
+    "react-native-webview-crypto": "0.0.13"
   }
 }
