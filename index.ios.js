@@ -72,7 +72,7 @@ class AwesomeProject extends Component {
         <View style={{
           padding: 20
         }}>
-          <PolyfillCrypto />
+          <PolyfillCrypto debug={true } />
           <Text>
             {this.state.status}
           </Text>
