@@ -11,12 +11,12 @@ end to tend test of [`react-native-webview-crypto`](https://github.com/saulshana
 
 ## Usage
 
-Simple run `react-native run-ios` and click on the `None` text. It should then
+Simple run `./node_modules/.bin/react-native run-ios` and click on the `None` text. It should then
 executes the code for [this tutorial](https://coolaj86.com/articles/webcrypto-encrypt-and-decrypt-with-aes/),
-encrypting and decrypting with AES. If it is succesfull, it should display
+encrypting and decrypting with AES. If it is successful, it should display
 `This is very sensitive stuff.` at the end. It should work with the debugger
 both on and off
 
 ### Cavets
-This isn't working on the latest version of React Native and Android
+This isn't working on the latest version of React Native or Android
 because [`react-native-webview-bridge` has not been updated for that yet](https://github.com/alinz/react-native-webview-bridge/issues/111#issuecomment-232780632).
